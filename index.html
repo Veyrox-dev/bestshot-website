@@ -1336,7 +1336,7 @@
 
         .footer-grid {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(3, 1fr);
             gap: var(--spacing-2xl);
             margin-bottom: var(--spacing-2xl);
         }
@@ -1552,17 +1552,70 @@
                 <p>Finde und verwalte automatisch Duplikate in großen Fotosammlungen. Alles bleibt auf deinem PC, keine Cloud, maximale Datensicherheit.</p>
                 <div class="hero-buttons">
                     <a href="download.html" class="btn btn-primary btn-lg">Kostenlos herunterladen</a>
-                    <a href="docs.html" class="btn btn-lg" style="background: rgba(255, 255, 255, 0.2); border: 1.5px solid white; color: white; font-weight: 600;">Dokumentation</a>
+                    <a href="#features" class="btn btn-lg" style="background: rgba(255, 255, 255, 0.2); border: 1.5px solid white; color: white; font-weight: 600;">Features ansehen</a>
                 </div>
             </div>
-            <!-- App Screenshot/Mockup Placeholder -->
+            <!-- App Screenshot Mockup -->
             <div class="hero-mockup">
-                <div class="hero-mockup-placeholder">
-                    🖼️ App-Screenshot folgt hier (in Entwicklung)
-                </div>
-                <!-- Uncomment when screenshot is ready:
-                <img src="assets/app-screenshot.png" alt="PhotoCleaner App Screenshot">
-                -->
+                <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="width:100%; height:auto; border-radius:12px; box-shadow: 0 20px 60px rgba(0,0,0,0.3);" role="img" aria-label="PhotoCleaner App Vorschau">
+                    <rect width="700" height="420" rx="8" fill="#1e293b"/>
+                    <rect width="700" height="36" rx="8" fill="#0f172a"/>
+                    <rect y="28" width="700" height="8" fill="#0f172a"/>
+                    <circle cx="20" cy="18" r="5" fill="#ef4444"/>
+                    <circle cx="38" cy="18" r="5" fill="#f59e0b"/>
+                    <circle cx="56" cy="18" r="5" fill="#22c55e"/>
+                    <text x="350" y="22" text-anchor="middle" fill="#94a3b8" font-family="Segoe UI,sans-serif" font-size="12" font-weight="600">PhotoCleaner v0.8.7</text>
+                    <!-- Sidebar -->
+                    <rect x="0" y="36" width="176" height="384" fill="#1e293b"/>
+                    <rect x="10" y="48" width="156" height="30" rx="4" fill="#2563eb" opacity="0.9"/>
+                    <text x="22" y="67" fill="white" font-family="Segoe UI,sans-serif" font-size="11" font-weight="600">📁 Gruppe 1 · 5 Bilder</text>
+                    <rect x="10" y="86" width="156" height="30" rx="4" fill="#334155"/>
+                    <text x="22" y="105" fill="#94a3b8" font-family="Segoe UI,sans-serif" font-size="11">📁 Gruppe 2 · 3 Bilder</text>
+                    <rect x="10" y="124" width="156" height="30" rx="4" fill="#334155"/>
+                    <text x="22" y="143" fill="#94a3b8" font-family="Segoe UI,sans-serif" font-size="11">📁 Gruppe 3 · 8 Bilder</text>
+                    <rect x="10" y="162" width="156" height="30" rx="4" fill="#334155"/>
+                    <text x="22" y="181" fill="#22c55e" font-family="Segoe UI,sans-serif" font-size="11">✓ Gruppe 4 · 2 Bilder</text>
+                    <!-- Main content -->
+                    <rect x="176" y="36" width="524" height="384" fill="#f8fafc"/>
+                    <rect x="176" y="36" width="524" height="38" fill="#fff"/>
+                    <line x1="176" y1="74" x2="700" y2="74" stroke="#e2e8f0" stroke-width="1"/>
+                    <rect x="190" y="44" width="56" height="22" rx="4" fill="#2563eb"/>
+                    <text x="218" y="59" text-anchor="middle" fill="white" font-family="Segoe UI,sans-serif" font-size="10" font-weight="600">Keep</text>
+                    <rect x="254" y="44" width="56" height="22" rx="4" fill="#dc2626"/>
+                    <text x="282" y="59" text-anchor="middle" fill="white" font-family="Segoe UI,sans-serif" font-size="10" font-weight="600">Delete</text>
+                    <rect x="318" y="44" width="56" height="22" rx="4" fill="#f59e0b"/>
+                    <text x="346" y="59" text-anchor="middle" fill="white" font-family="Segoe UI,sans-serif" font-size="10" font-weight="600">Unsure</text>
+                    <!-- Thumbnails -->
+                    <rect x="194" y="86" width="154" height="130" rx="6" fill="#e2e8f0"/>
+                    <text x="271" y="148" text-anchor="middle" fill="#94a3b8" font-family="Segoe UI,sans-serif" font-size="28">🖼️</text>
+                    <text x="271" y="170" text-anchor="middle" fill="#64748b" font-family="Segoe UI,sans-serif" font-size="10">IMG_2024.jpg</text>
+                    <rect x="194" y="220" width="60" height="16" rx="3" fill="#22c55e"/>
+                    <text x="224" y="232" text-anchor="middle" fill="white" font-family="Segoe UI,sans-serif" font-size="9" font-weight="600">★ Best</text>
+                    <rect x="360" y="86" width="154" height="130" rx="6" fill="#e2e8f0"/>
+                    <text x="437" y="148" text-anchor="middle" fill="#94a3b8" font-family="Segoe UI,sans-serif" font-size="28">🖼️</text>
+                    <text x="437" y="170" text-anchor="middle" fill="#64748b" font-family="Segoe UI,sans-serif" font-size="10">IMG_2025.jpg</text>
+                    <rect x="360" y="220" width="60" height="16" rx="3" fill="#ef4444"/>
+                    <text x="390" y="232" text-anchor="middle" fill="white" font-family="Segoe UI,sans-serif" font-size="9" font-weight="600">Duplikat</text>
+                    <rect x="526" y="86" width="154" height="130" rx="6" fill="#e2e8f0"/>
+                    <text x="603" y="148" text-anchor="middle" fill="#94a3b8" font-family="Segoe UI,sans-serif" font-size="28">🖼️</text>
+                    <text x="603" y="170" text-anchor="middle" fill="#64748b" font-family="Segoe UI,sans-serif" font-size="10">IMG_2026.jpg</text>
+                    <rect x="526" y="220" width="60" height="16" rx="3" fill="#f59e0b"/>
+                    <text x="556" y="232" text-anchor="middle" fill="white" font-family="Segoe UI,sans-serif" font-size="9" font-weight="600">Prüfen</text>
+                    <!-- Quality scores -->
+                    <rect x="194" y="244" width="154" height="36" rx="4" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
+                    <text x="208" y="259" fill="#334155" font-family="Segoe UI,sans-serif" font-size="10">Qualität:</text>
+                    <text x="208" y="273" fill="#22c55e" font-family="Segoe UI,sans-serif" font-size="11" font-weight="700">⭐ 94/100</text>
+                    <rect x="360" y="244" width="154" height="36" rx="4" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
+                    <text x="374" y="259" fill="#334155" font-family="Segoe UI,sans-serif" font-size="10">Qualität:</text>
+                    <text x="374" y="273" fill="#f59e0b" font-family="Segoe UI,sans-serif" font-size="11" font-weight="700">⭐ 72/100</text>
+                    <rect x="526" y="244" width="154" height="36" rx="4" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
+                    <text x="540" y="259" fill="#334155" font-family="Segoe UI,sans-serif" font-size="10">Qualität:</text>
+                    <text x="540" y="273" fill="#ef4444" font-family="Segoe UI,sans-serif" font-size="11" font-weight="700">⭐ 45/100</text>
+                    <!-- Progress bar -->
+                    <rect x="194" y="380" width="488" height="22" rx="4" fill="#e2e8f0"/>
+                    <rect x="194" y="380" width="293" height="22" rx="4" fill="#2563eb"/>
+                    <text x="438" y="395" text-anchor="middle" fill="#334155" font-family="Segoe UI,sans-serif" font-size="11" font-weight="600">3 von 5 Gruppen bearbeitet</text>
+                </svg>
             </div>
         </div>
     </section>
@@ -1624,15 +1677,13 @@
         <div class="container problem-content">
             <div class="section-header">
                 <h2>Das Problem</h2>
-                <p>Große Fotosammlungen sind ein Verwaltungsnightmare</p>
+                <p>Große Fotosammlungen werden schnell unübersichtlich</p>
             </div>
             <ul class="problem-list">
                 <li>Hunderte ähnlicher Fotos manuell durchsuchen und vergleichen</li>
                 <li>Wertvoller Speicherplatz wird durch Duplikate verschwendet</li>
-                <li>Schwierig zu entscheiden, welches Foto von mehreren ähnlichen behalten werden soll</li>
-                <li>Zeitaufwändige manuelle Verwaltung großer Ordnerstrukturen</li>
                 <li>Risiko, wichtige Fotos versehentlich zu löschen</li>
-                <li>Keine Struktur für systematische Photo-Organisation</li>
+                <li>Keine Struktur für systematische Foto-Organisation</li>
             </ul>
         </div>
     </section>
@@ -1695,13 +1746,13 @@
                 </div>
                 <div class="trust-badge">
                     <div class="trust-badge-icon">⚡</div>
-                    <div class="trust-badge-text">Keine<br>Cloud</div>
-                    <div class="trust-badge-subtext">Lokal & Online-Lizenzprüfung</div>
+                    <div class="trust-badge-text">Daten bleiben<br>lokal</div>
+                    <div class="trust-badge-subtext">Analyse ohne Cloud-Upload</div>
                 </div>
                 <div class="trust-badge">
                     <div class="trust-badge-icon">🛡️</div>
-                    <div class="trust-badge-text">Keine<br>Telemetrie</div>
-                    <div class="trust-badge-subtext">Zero Tracking</div>
+                    <div class="trust-badge-text">Telemetrie<br>optional</div>
+                    <div class="trust-badge-subtext">Du entscheidest</div>
                 </div>
                 <div class="trust-badge">
                     <div class="trust-badge-icon">💻</div>
@@ -1982,28 +2033,6 @@
         </div>
     </section>
 
-    <!-- NEWSLETTER SECTION -->
-    <section class="section section-gray">
-        <div class="container">
-            <div class="newsletter-section">
-                <div class="newsletter-content">
-                    <h3>📧 Immer up-to-date bleiben</h3>
-                    <p>Erhalte Updates zu neuen Features, wichtigen Sicherheitsupdates und exklusiven Tipps direkt in dein Postfach.</p>
-                    <form class="newsletter-form" action="https://formsubmit.co/info@photocleaner.de" method="POST" id="newsletterForm">
-                        <input type="hidden" name="_subject" value="Neue Newsletter-Anmeldung PhotoCleaner">
-                        <input type="hidden" name="_captcha" value="false">
-                        <input type="hidden" name="_template" value="table">
-                        <input type="text" name="_honey" style="display:none">
-                        <input type="hidden" name="Anmeldetyp" value="Newsletter">
-                        <input type="email" name="email" placeholder="Deine E-Mail-Adresse" required>
-                        <button type="submit">Newsletter abonnieren</button>
-                    </form>
-                    <p class="newsletter-note">✓ Keine Spam, max. 1x pro Monat. Jederzeit abmeldbar.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <footer>
         <div class="container">
             <div class="footer-grid">
@@ -2017,11 +2046,11 @@
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h4>Ressourcen</h4>
+                    <h4>Support</h4>
                     <ul>
-                        <li><a href="docs.html">Dokumentation</a></li>
                         <li><a href="faq.html">FAQ</a></li>
                         <li><a href="#contact">Kontakt</a></li>
+                        <li><a href="mailto:support@photocleaner.de">support@photocleaner.de</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
@@ -2029,14 +2058,6 @@
                     <ul>
                         <li><a href="impressum.html">Impressum</a></li>
                         <li><a href="datenschutz.html">Datenschutz</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Unternehmen</h4>
-                    <ul>
-                        <li><a href="#home">Über uns</a></li>
-                        <li><a href="mailto:info@photocleaner.de">info@photocleaner.de</a></li>
-                        <li><a href="mailto:support@photocleaner.de">support@photocleaner.de</a></li>
                     </ul>
                 </div>
             </div>
